@@ -13,7 +13,7 @@ function Nav() {
       </div>
       <nav className="h-16 p-4 flex items-center">
         <img src={hamburger} alt="hamburger" />
-        <h4 className="font-montserrat font-extrabold text-2xl ml-4 mr-24">
+        <h4 className="font-integral font-bold text-2xl ml-4 mr-24">
           SHOP.CO
         </h4>
         <div className="flex gap-3">
