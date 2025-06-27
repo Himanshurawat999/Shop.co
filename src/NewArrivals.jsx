@@ -3,10 +3,6 @@ import new1 from "./assets/new1.png";
 import new2 from "./assets/new2.png";
 import new3 from "./assets/new3.png";
 import new4 from "./assets/new4.png";
-import top1 from "./assets/top1.png";
-import top2 from "./assets/top2.png";
-import top3 from "./assets/top3.png";
-import top4 from "./assets/top4.png";
 import stars from "./assets/stars.png";
 
 function NewArrivals() {
