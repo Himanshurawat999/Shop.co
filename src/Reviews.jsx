@@ -6,9 +6,9 @@ import tick from "./assets/tick.png";
 
 function Reviews() {
   return (
-    <div className="px-4 mb-12 lg:mb-20 lg:px-24">
+    <div className="mb-12 px-4 lg:mb-20 lg:px-24">
       <div className="mb-6 flex lg:justify-between">
-        <h1 className="font-integral font-bold text-3xl w-[286px]  lg:text-5xl lg:w-auto">
+        <h1 className="font-integral w-[286px] text-3xl font-bold lg:w-auto lg:text-5xl">
           OUR HAPPY CUSTOMERS
         </h1>
         <div className="flex items-end gap-3">
@@ -18,9 +18,9 @@ function Reviews() {
       </div>
 
       <div className="lg:flex lg:gap-5">
-        <div className="border-2 border-black/10 p-6 rounded-2xl lg:px-8 lg:py-7 lg:mt-10 lg:w-[400px] lg:rounded-3xl">
+        <div className="rounded-2xl border-2 border-black/10 p-6 lg:mt-10 lg:w-[400px] lg:rounded-3xl lg:px-8 lg:py-7">
           <img src={starsFull} alt="stars" />
-          <div className="flex items-center gap-1 mt-3 mb-2 lg:mt-4 lg:mb-3">
+          <div className="mt-3 mb-2 flex items-center gap-1 lg:mt-4 lg:mb-3">
             <h3 className="font-bold lg:text-xl">Sarah M.</h3>
             <img src={tick} alt="tick" />
           </div>
@@ -31,9 +31,9 @@ function Reviews() {
           </p>
         </div>
 
-        <div className="hidden border-2 border-black/10 p-6 rounded-2xl lg:px-8 lg:py-7 lg:mt-10 lg:w-[400px] lg:rounded-3xl lg:block">
+        <div className="hidden rounded-2xl border-2 border-black/10 p-6 lg:mt-10 lg:block lg:w-[400px] lg:rounded-3xl lg:px-8 lg:py-7">
           <img src={starsFull} alt="stars" />
-          <div className="flex items-center gap-1 mt-3 mb-2 lg:mt-4 lg:mb-3">
+          <div className="mt-3 mb-2 flex items-center gap-1 lg:mt-4 lg:mb-3">
             <h3 className="font-bold lg:text-xl">Alex K.</h3>
             <img src={tick} alt="tick" />
           </div>
@@ -45,9 +45,9 @@ function Reviews() {
           </p>
         </div>
 
-        <div className="hidden border-2 border-black/10 p-6 rounded-2xl lg:px-8 lg:py-7 lg:mt-10 lg:w-[400px] lg:rounded-3xl lg:block">
+        <div className="hidden rounded-2xl border-2 border-black/10 p-6 lg:mt-10 lg:block lg:w-[400px] lg:rounded-3xl lg:px-8 lg:py-7">
           <img src={starsFull} alt="stars" />
-          <div className="flex items-center gap-1 mt-3 mb-2 lg:mt-4 lg:mb-3">
+          <div className="mt-3 mb-2 flex items-center gap-1 lg:mt-4 lg:mb-3">
             <h3 className="font-bold lg:text-xl">James L.</h3>
             <img src={tick} alt="tick" />
           </div>

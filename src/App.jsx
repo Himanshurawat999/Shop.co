@@ -11,7 +11,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <main className="w-full max-w-[1400px] min-h-screen h-full mx-auto font-plus">
+    <main className="font-plus mx-auto h-full min-h-screen w-full max-w-[1400px]">
       <Nav />
       <Hero />
       <Logos />

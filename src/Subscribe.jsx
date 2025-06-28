@@ -3,22 +3,22 @@ import mail from "./assets/mail.png";
 
 function Subscribe() {
   return (
-    <div className="mx-4 mb-[-40%] pt-8 pb-7 bg-black text-white rounded-2xl relative z-10 lg:px-16 lg:py-11 lg:mx-24 lg:rounded-3xl lg:mb-[-7%]">
+    <div className="relative z-10 mx-4 mb-[-40%] rounded-2xl bg-black pt-8 pb-7 text-white lg:mx-24 lg:mb-[-7%] lg:rounded-3xl lg:px-16 lg:py-11">
       <div className="px-6 lg:flex lg:justify-between lg:px-0">
-        <h1 className="font-integral font-bold text-3xl mb-8 lg:text-[40px] lg:mb-0">
+        <h1 className="font-integral mb-8 text-3xl font-bold lg:mb-0 lg:text-[40px]">
           STAY UPTO DATE ABOUT
           <br className="hidden lg:block" /> OUR LATEST OFFERS
         </h1>
         <form className="relative lg:w-[349px]">
-          <img src={mail} alt="" className="absolute left-4 top-4" />
+          <img src={mail} alt="" className="absolute top-4 left-4" />
           <input
             type="email"
             placeholder="Enter your email address"
-            className="mb-3 py-3 px-4 pl-12 w-full rounded-[62px] bg-white placeholder:text-black/60"
+            className="mb-3 w-full rounded-[62px] bg-white px-4 py-3 pl-12 placeholder:text-black/60"
           />
           <button
             type="submit"
-            className="w-full py-3 px-4 bg-white text-black font-medium text-sm rounded-[62px] lg:text-base"
+            className="w-full rounded-[62px] bg-white px-4 py-3 text-sm font-medium text-black lg:text-base"
           >
             Subscribe to Newsletter
           </button>

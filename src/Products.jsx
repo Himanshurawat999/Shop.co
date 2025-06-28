@@ -4,9 +4,9 @@ import TopSelling from "./TopSelling";
 
 function Products() {
   return (
-    <div className="px-4 py-12 overflow-x-hidden lg:py-18 lg:px-15">
+    <div className="overflow-x-hidden px-4 py-12 lg:px-15 lg:py-18">
       <NewArrivals />
-      <hr className="my-10 opacity-10"/>
+      <hr className="my-10 opacity-10" />
       <TopSelling />
     </div>
   );
