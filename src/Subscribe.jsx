@@ -3,12 +3,13 @@ import mail from "./assets/mail.png";
 
 function Subscribe() {
   return (
-    <div className="mx-4 mb-[-40%] pt-8 pb-7 bg-black text-white rounded-2xl relative z-10">
-      <div className="px-6">
-        <h1 className="font-integral font-bold text-3xl mb-8">
-          STAY UPTO DATE ABOUT OUR LATEST OFFERS
+    <div className="mx-4 mb-[-40%] pt-8 pb-7 bg-black text-white rounded-2xl relative z-10 lg:px-16 lg:py-11 lg:mx-24 lg:rounded-3xl lg:mb-[-7%]">
+      <div className="px-6 lg:flex lg:justify-between lg:px-0">
+        <h1 className="font-integral font-bold text-3xl mb-8 lg:text-[40px] lg:mb-0">
+          STAY UPTO DATE ABOUT
+          <br className="hidden lg:block" /> OUR LATEST OFFERS
         </h1>
-        <form className="relative">
+        <form className="relative lg:w-[349px]">
           <img src={mail} alt="" className="absolute left-4 top-4" />
           <input
             type="email"
@@ -17,7 +18,7 @@ function Subscribe() {
           />
           <button
             type="submit"
-            className="w-full py-3 px-4 bg-white text-black font-medium text-sm rounded-[62px]"
+            className="w-full py-3 px-4 bg-white text-black font-medium text-sm rounded-[62px] lg:text-base"
           >
             Subscribe to Newsletter
           </button>
